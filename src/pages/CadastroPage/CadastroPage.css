@@ -1,0 +1,119 @@
+.containerCadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 525px;
+    height: 677px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px 2px rgba(41, 46, 51, 0.1);
+    border-radius: 4px;
+}
+
+.cadastroHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 86px;
+    margin-top: 60px;
+}
+.cadastroHeader p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 15px;
+    color: #1B195E;
+}
+
+.cadastroInputField {
+    width: 300px;
+    height: 300px;
+    margin-top: 32px;
+}
+
+.cadastroInputField label {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 15px;
+    color: #1B195E;
+    margin-bottom: 16px;
+}
+.cadastroInputField input {
+    width: 100%;
+    height: 40px;
+    background: #F0F1F7;
+    border: 1px solid #E4E4F1;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 2px #B5B3E6;
+    border-radius: 8px;
+    margin-top: 8px;
+    outline: none;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 15px;
+    color: #1B195E;
+}
+.cadastroInputField input:focus{
+    background-color: #FFFFFF;
+    border: 1px solid #343090;
+}
+
+.cadastroFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 297px;
+    text-align: center;
+    margin-top: 32px;
+}
+.cadastroFooterText{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 15px;
+    color: #1B195E;
+}
+.cadastroFooter span{
+    color: #4E47C2;
+}
+.cadastroFooter button{
+    margin-top: 16px;
+}
+
+.cadastroFooter a {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 10px;
+    color: #4E47C2;
+    transition: .7s;
+    cursor: pointer;
+}
+.cadastroFooter a:hover {
+    opacity: 0.5;
+}
+.cadastroFooter img{
+    width: 0.95rem;
+    height: 0.95rem;
+}
+
+@media (max-width: 530px){
+    .containerCadastro {
+        width: 100%;
+    }
+}
+
+@media (max-width: 380px){
+    .containerCadastro{
+        margin-top: 150px;
+    }
+}

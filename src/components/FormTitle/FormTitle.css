@@ -1,0 +1,19 @@
+.formTitle {
+    color: var(--azul-oceano);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 39px;
+}
+
+.formTitle::after {
+    content: "";
+    display: block;
+    width: 94px;
+    height: 4px;
+    background: linear-gradient(270.01deg, #4E47C2 -0.01%, rgba(78, 71, 194, 0) 237.73%);
+    border-radius: 4px;
+    margin-top: 4px;
+}

@@ -1,0 +1,17 @@
+.headerForm{
+    position: absolute;
+    left: 9.79%;
+    right: 79.1%;
+    top: 3.2%;
+    bottom: 91.3%;
+}
+
+.headerForm img{
+    width: 160px;
+    height: 49.5px;
+    transition: .7s;
+}
+
+.headerForm img:hover{
+    opacity: 0.5;
+}

@@ -1,0 +1,134 @@
+ .commentBox {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+    min-height: 40px;
+    background: #F0F1F7;
+    border: 1px solid #B5B3E6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 2px;
+}
+
+.commentBox input{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border: 1px solid #B5B3E6;
+}
+.commentBox .bbb {
+    display: none;
+}
+
+.comment {
+    display: flex;
+    justify-content: center;
+    width: 680px;
+    height: 47px;
+    margin-top: 60px;
+}
+@media (max-width: 725px){
+    .comment{
+        width: 100%;
+    }
+}
+.comment img {
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 58px;
+    width: 58px;
+}
+
+.comment h2 {
+    margin-bottom: 2px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4E47C2;
+}
+
+.comment p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4E47C2;
+}
+
+.thumbs img {
+    cursor: pointer;
+    height: 12px;
+}
+
+.ttttttttt{
+    width: 100%;
+}
+.thumbs {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+.thumbs .x {
+    align-items: center;
+    display: flex;
+    width: 33px;
+}
+
+.thumbs .xx img {
+    height: 16px;
+    width: 30px;
+}
+
+.thumbs .xx {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    
+}
+.thumbs .xx-options {
+    display: flex;
+    align-items: center;
+}
+.thumbs .xx-options img{
+    transition: .7s;
+}
+
+.thumbs .xx-options img:hover{
+    opacity: 0.5;
+
+}
+.votes {
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    width: 90px;
+}
+
+.video form input {
+    background: #FFFFFF;
+    border: 1px solid #343090;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 2px #B5B3E6;
+    border-radius: 8px;
+    width: 575px;
+    height: 40px;
+    margin-top: 24px;
+    padding: 0 10px;
+    height: 40px;
+    outline: none;
+    color: #1B195E;
+    margin-right: 10px;
+}
+
+.video form input::placeholder {
+    color: #1B195E;
+}
+
+.editComment form input{
+    margin-top: 0;
+}

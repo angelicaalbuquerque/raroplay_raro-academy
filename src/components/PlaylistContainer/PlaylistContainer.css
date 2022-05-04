@@ -1,0 +1,31 @@
+.playlistContainer {
+    display: flex;
+    flex-direction: column;
+    width: 1164px;
+    max-height: 385px;    
+    margin-top: 40px;
+}
+.playlistContainer:last-child{
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1200px){
+    .playlistContainer {
+        width: 900px;
+    }
+}
+
+
+@media (max-width: 930px){
+    .playlistContainer {
+        width: 500px;
+    }
+}
+
+@media (max-width: 510px){
+    .playlistContainer {
+        width: 350px;
+    }
+}
+
+

@@ -1,0 +1,65 @@
+.aside{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-decoration: none;
+  height: 247px;    
+  width: 396px;
+  margin-bottom: 24px;
+}
+
+.aside a {
+  text-decoration: none;
+}
+
+.aside a:hover {
+  opacity: 0.5;
+}
+
+.textoContainer h3 {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 20px;
+  color: #343090;
+}
+
+.textoContainer p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 15px;
+  color: #000000;
+}
+
+img{
+  width: 396px;
+  height: 200px;  
+}
+
+.descricaoAside {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 20px;
+  color: #343090;
+}
+
+.dadosAside {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: black;
+}
+
+.videosLaterais {
+  position: relative;
+}
+
+@media (max-width: 1200px){
+  .aside {
+    margin-right: 10px;
+  }
+}

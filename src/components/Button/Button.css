@@ -1,0 +1,21 @@
+.btnForm {
+    background-color: var(--azul-cobalto);
+    color: var(--white-aux2);
+    box-shadow: 0px 1px 2px rgba(41, 46, 51, 0.1);
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: 1px solid var(--azul-maximum);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 20px;
+    gap: 0.5rem;
+    transition: 0.7s;
+}
+.btnForm p {
+    padding: 4px 8px;
+}
+
+.btnForm:hover{
+    opacity: 0.7;
+}
